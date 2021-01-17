@@ -120,9 +120,9 @@ async def rounded_rectangle(rectangle, xy, corner_radius, fill=None, outline=Non
 @some_sticker_bot.on_message(filters.command("start"))
 async def start_handler(c: Client, m: Message):
     await m.reply_text(
-        "Hi, I just create telegram sticker from the text messages you send me. \nMy creator @eyaadh did a YouTube "
-        "[video](https://youtu.be/dVrA9hit4ks) on how he created me. The link for my source is on the video "
-        "description, you can fork the project and make a better version of me.",
+        "Hi, I just create telegram sticker from the text messages you send me.Developed 👨‍💻 With Love By @Mrvasuz❤. "
+        "[Movies Group](https://t.me/exploremoviezgroup) on Which Purpose he created me. "
+        ".",
         disable_web_page_preview=True
     )
 
@@ -131,9 +131,9 @@ async def start_handler(c: Client, m: Message):
 async def help_handler(c: Client, m: Message):
     await m.reply_text(
         "Hi, I do not have much to say on help - I just create telegram stickers from the text messages you send me. "
-        "\nMy creator @eyaadh did a YouTube "
-        "[video](https://youtu.be/dVrA9hit4ks) on how he created me. The link for my source is on the video "
-        "description, you can fork the project and make a better version of me.",
+        "\nMy creator @Mrvasuz 💃 "
+        "[Moviesgroup](https://t.me/exploremoviezgroup) on how he created me. Jion Group For Latest Movies 👨‍💻"
+        ".",
         disable_web_page_preview=True
     )
 
